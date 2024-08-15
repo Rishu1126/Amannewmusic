@@ -50,11 +50,9 @@ from HackerPlugins.admin_check import *
 bot = Client(
     "Music Stream Bot",
     bot_token = os.environ["6779657648:AAGMt7ibLk1StGURuvqPCfOXCEgk3EHx818"],
-    api_id = int(os.environ["25543673"]),
-    api_hash = os.environ["4a6a881b368c8a2a03f6426267f55e62"]
-)
+    api_id = int(os.environ["255"]
 
-client = Client(os.environ["BQCuFJG9TZMW-U1FxGQzKa5GXN6GpUAlXQCiwWSL_xrAbGZ3R3U_thlNO6zAqfhZN0EI4w0U3t7OUt_hGZvUfS9LPyJEXt19ikTDIwlESC5oEtlVxkyJm8Zw_x0owXLI2Okh-NQZOgyqDE4YFXWc1qySwXkB9nc8KcXwtAn98A-cHoKpi41nM0fA7SW4s37B7nPm5mk1gNmEsT9tQytc3CsWtR3k6Zc5UEz-Ux4OlYLBJ-KfYVqFoDlwxjKeSWBDvxo84TnjlNjHqm9hAsNwCuhUBtag2aByiEb2LtDVeayyMPeAsKWhFJqAkeJr1Mj9E8QKwmkhl7RcDGCoY1M903jjAAAAAaIrsyYA"], int(os.environ["25543673"]), os.environ["4a6a881b368c8a2a03f6426267f55e62"])
+client = Client(os.environ["BQCuFJG9TZMW--NQZOgyqDE4YFXWc1qySwXkB9nc8KcXwtAn98A-cHoKpi41nM0fA7SW4s37B7nPm5mk1gNmEsT9tQytc3CsWtR3k6Zc5UEz-Ux4OlYLBJ-KfYVqFoDlwxjKeSWBDvxo84TnjlNjHqm9hAsNwCuhUBtag2aByiEb2LtDVeayyMPeAsKWhFJqAkeJr1Mj9E8QKwmkhl7RcDGCoY1M903jjAAAAAaIrsyYA"], int(os.environ["25543673"]), os.environ["4a6a881b368c8a2a03f6426267f55e62"])
 
 app = PyTgCalls(client)
 
